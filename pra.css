@@ -1,0 +1,153 @@
+body{
+    
+    background-image:url("bb.jpg");
+    background-attachment:fixed;
+    bacground-position:absolute;
+    background-width:100%;
+    background-position:center;
+    align-items: center;
+    }
+.kilo{
+    bacground-image:url("tr.jpg");
+}
+h1{
+    color:white
+}
+fieldset {
+    color:white;
+    background-color:#21212173;
+    
+    position:center;
+    border:10px double #000000a5 ;
+}
+
+table{
+    
+    position:sticky;
+    position: -webkit-sticky;
+  position: sticky;
+    width:100%;
+    heigth:40px;
+    position:fit;
+    position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: #43434386;
+  border: 2px solid #958989;
+  text-align:left;
+  box-sizing:border-box;
+}
+#lef{
+    position:left;
+}
+#sus{
+    position:center;
+    color:white;
+}
+* {margin:0;
+padding:0;
+box-sizing: border-box;
+    
+}
+section {
+
+    
+    
+}
+.oye{
+    margin: auto;
+    border:5px solid#d3d3d380;
+    position:center;
+    border-radius:20px;
+}
+#note{
+    background-color:#ffffff8d;
+    border:2px solid double gray;
+}
+#http{
+    background: #1f1f1f8f;
+    border-top: 4px solid #1a1a1add;
+}
+#jig{
+    border:3px solid #16161672;
+}
+#kk{
+    color:white;
+    border:2px solid black;
+    
+}  .dropbtn {
+  background-color:#43434386;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position:-webskit-sticky;
+  position: sticky;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #191919b8;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+.kim{
+    background: #cecece9e;
+}
+.hh{
+    border-top:
+        4px double #2e2e2e96;
+        border-bottom:10px double #2e2e2e96;
+    }
+
+#white{
+    color:white;
+}
+footer{background: #000000d6;
+border-top:3px solid #b2b2b2ae;
+border-radius: 3px;}    
+    
+#google_translate_element{
+    border:5px solid #8b8b8b8e ;
+}
+.tran{
+    color:#3aafa1ba;
+    background: #2c2c2cba;
+}
+#folow{
+    border-top:3px solid #0d0f19c8;
+    border-bottom: 3px solid #0d0f19c8;
+}
+#foot{
+    color:white;
+    background: #000000da;
+    padding:0;
+    margin:0;
+    
+}
