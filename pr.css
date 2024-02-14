@@ -71,6 +71,9 @@ section {
 }
 #jig{
     border:3px solid #16161672;
+   margin-left:70px;
+   border-radius:50px;
+   background: #181818dd;
 }
 #kk{
     color:white;
@@ -163,3 +166,4 @@ text-align:center;}
     text-align:center;
 }
 
+.gko{background:#010101a8;}
