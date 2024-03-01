@@ -1,0 +1,76 @@
+body{
+    background: url(l.jpg);
+    background-size:cover;
+    background-width: 100%;
+    background-height: 100vh;
+   background-attachment: fixed;
+   
+    
+}
+#contain{
+
+position:absolute;
+top:50%;
+left:50%;
+-webkit-transform: translate(-50%,-50%);
+
+    transform: translate(-50%,-50%);
+}
+form{
+  height: 500px;
+  background: rgba(255,255,255,0.2);
+  padding:3em;
+  border:2px solid rgba(255,225,225,0.1);
+  border-radius:20px;
+  text-align:center;
+  position: relative;
+  -webkit-backdrop-filter:blur(5px);
+  backdrop-filter:blur(5px);
+  box-shadow:5px 5px 5px 5px red;
+  animation-name:king;
+  animation-duration:4s;
+  animation-iteration-count:infinite;
+  transition-property:all;
+  transition-duration:3s;
+  height: auto;
+  trasition-iteration-count:infinite;
+}
+form:hover{
+    transition:rotate3d(1,1,1,0deg);
+}
+@keyframes king{
+0%{box-shadow:5px 5px 5px 5px red;}
+
+50%{box-shadow:5px 5px 5px 5px white;}
+
+100%{box-shadow:5px 5px 5px 5px red;}
+    
+}
+form input{
+    background:transparent;
+    margin-bottom:10px;
+    padding:1em;
+    border-right:1px solid#00095a94;
+    border-bottom:1px solid#00095a94;
+    color:white;
+    
+}
+form h1{
+    color: white;
+    text-shadow:2px 2px 2px blue;
+}
+form:hover input{
+  border: 2px solid #0003ff70;
+    animation-name:ke;
+    animation-duration:4s;
+  animation-iteration-count:infinite;
+    
+    
+}
+@keyframes ke{
+    0%{border:2px solid #0003ff70 ;left: 0px; top:0px; border-radius:0 0 0 0;}
+    25%{border: 2px solid black;left: 30px; top:0px; border-radius:50% 0 0 0;}
+    50%{border:2px solid #000143;left: 300px; top:300px; border-radius:50% 50% 0 0;}
+    75%{border:2px solid #15e0ff;left: 300px; top:300px; border-radius:50% 50% 50% 0;}
+    100%{border:2px solid #0003ff70;left: 0px; top:0px; border-radius:50% 50% 50% 50%;}
+}

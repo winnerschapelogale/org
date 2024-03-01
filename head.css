@@ -1,0 +1,67 @@
+
+
+
+
+
+
+
+.menucontainer{
+    position:relative;
+    display:block;
+}
+.menucontainer button{
+    float:right;
+    top:0;
+    right:0;
+    position:absolute;
+    z-index:11;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    background: red;
+    animation-name:glow;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+}
+@keyframes glow{
+    0%{ background: red;}
+    50%{ background: white;}
+    100%{ background: red;}}
+    @keyframes glo{
+    0%{border:3px solid white;}
+    50%{border:3px solid red;}
+    100%{border:3px solid white;}
+}
+.menucontent{
+    background:red;
+    -webkit-backdrop-filter:blur(10px);
+    backdrop-filter:blur(7px);
+    float:right;
+    top:0;
+    right:0;
+    display:none;
+    width:50%;
+    lenght:50%;
+    position:absolute;
+    z-index:1;
+    transition:0.5s ease;
+    border:3px solid white;
+    animation-name:glo;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+}
+.menucontent a{
+    display:block;
+    postion:absolute;
+    padding:20px;
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+.menucontent a:hover {
+    background: black;
+    transition:0.3s;
+}
+.menucontainer:hover .menucontent{
+    display:block;
+}

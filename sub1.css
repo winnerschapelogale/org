@@ -1,0 +1,102 @@
+.boxfounder{
+    background: rgba(255,255,255,0.2);
+    -webkit-backdrop-filter:blur(3px);
+    backdrop-filter:blur(3px);
+    margin:5px auto;
+    height: auto;
+    width: 100%;
+    
+}
+.boxfounder h1{
+    text-align:center;
+    font-weight:bold;
+    font-size:40px;
+    background: #2a2a2a;
+    margin:15px auto;
+    animation-name:oye;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+}
+@keyframes oye{
+    0%{background: #2a2a2a;}
+    50%{background:red;}
+    100%{background: #2a2a2a;}
+}
+.boxfounder p{
+    text-align:center;
+    border:2px solid red;
+    background: rgba(255,255,255,0.3);
+      -webkit-backdrop-filter:blur(6px);
+    backdrop-filter:blur(6px);
+    border-radius:20px;
+    box-shadow:6px 6px 6px black;
+    color: #1e1e1e;
+    animation-name:oyedepo;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+}
+.boximage img{
+    width: 70%;
+    height:240px;
+    border-top: 3px solid red;
+    border-bottom: 3px solid white;
+    border-right:0px solid #7d7d7d;
+    border-left:0px solid #000000;
+    border-radius:50%;
+    animation-name:oyedepo;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    box-shadow:5px 5px 5px #393939;
+    
+    
+}
+@keyframes oyedepo{
+    0%{border-top: 3px solid red;}
+    50%{border-top: 3px solid white;}
+    100%{border-top: 3px solid red;}
+    0%{border-bottom: 3px solid white;}
+    50%{border-bottom: 3px solid red;}
+    100%{border-bottom: 3px solid white;}
+    0%{border-right:0px solid #7d7d7d;}
+    50%{border-right:3px solid #000000;}
+    100%{border-right:0px solid #7d7d7d;}
+    0%{border-left:0px solid #000000;}
+    50%{border-left:3px solid #7d7d7d;}
+    100%{border-left:0px solid #000000;}
+    0%{border:2px solid red;}
+    50%{border:2px solid white;}
+    100%{border:2px solid red;}
+}
+.residentbox img{
+    width: 70%;
+    height:240px;
+    border-top: 3px solid red;
+    border-bottom: 3px solid white;
+    border-right:0px solid #7d7d7d;
+    border-left:0px solid #000000;
+    border-radius:50%;
+    animation-name:oyedepo;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    box-shadow:5px 5px 5px #393939;
+    
+}
+.blue{
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin:-150px 0 0 -100px;
+    width: 200px;
+    height: 200px;
+    color:white;
+    line-height: 300px;
+    text-align:center;
+}
+
+

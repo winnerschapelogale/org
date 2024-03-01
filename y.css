@@ -1,0 +1,77 @@
+.image-container {position:relative;}
+.image-container img{width: 100%;
+height: 300px;}
+.overlay-text{position:absolute;
+top:25%;
+text-align:left;}
+.overlay-text h1{
+height: 100px;
+    font-size:20px;
+    animation:header;
+    animation-duration:20s;
+    animation-fill-mode:forwards;
+    position:relative;
+}
+.overlay-text p{color:white;
+font-weight:bold;}
+.showcase{height:100px;}
+
+@keyframes header{
+    0%{top:-50px;}
+    100%{top:50px;}
+}
+.overlay-text p{
+    position:relative;
+    animation:enter;
+    animation-duration:14s;
+    animation-fill-mode:forwards;
+}
+@keyframes enter{
+    0%{left:-1000px;
+        
+    }
+    100%{left:0;}
+}
+}
+
+
+@keyframes change{
+    0%{color: white;}
+    50%{color: red;}
+    100%{color:white;}
+}
+
+.imagecont img{
+float:left;
+width: 50px;
+height: 50px;
+
+
+    
+}
+.imagecont p{
+    color: white;
+    text-align:left;
+    color:white;
+    animation-name:change;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+}
+.imagecont p div{
+    color: white;
+    text-align:left;
+    color:white;
+    animation-name:change;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+}
+.move{
+    transform:translateX(400%);
+    transform: transform 0.4s ease;
+}
+.move:nth-of-type(even){
+    transform:translate(-400%);
+}#7d7d7d
+.move .show{
+    transform: translateX(0);
+}

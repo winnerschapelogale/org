@@ -1,0 +1,59 @@
+.headcontain{
+   position:sticky;
+    position: -webkit-sticky;
+ 
+    width:100%;
+    heigth:40px;
+   
+    
+  top: 0;
+  padding: 5px;
+  background-color: rgba(255,255,255,0.4);
+  border-bottom: rgba(255,255,255,0.8);
+  -webkit-backdrop-filter:blur(5px);
+  backdrop-filter:blur(5px);
+  text-align:left;
+  box-shadow:3px 3px 3px grey;
+  z-index:1;}
+ .activities{
+     background: rgba(255,255,255,0.4);
+     
+ }
+ .activities img{
+     width: 100%;
+     height: auto;
+     
+     border:3px solid #cbcbcbe5;
+     border-radius: 20px;
+ }
+.activities p{
+    padding:10px;
+    text-align:center;
+    color: white;
+    border-left: 3px solid #cbcbcbe5;
+    border-right:3px solid #cbcbcbe5;
+    background:#3e3e3ebb;
+    margin-left:10px;
+    margin-right:10px;
+}  
+.activities  h1{
+    text-align:center;
+    background:#3e3e3ebb;
+    border-left: 3px solid #cbcbcbe5;
+    border-right:3px solid #cbcbcbe5;
+}
+  
+.emal{
+    background: 3px solid black;
+    margin-right:50%;
+    
+}   
+.emal h1{
+    color: white;
+    
+}
+.emal input{
+    height: 40px;
+}
+
+
