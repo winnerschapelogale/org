@@ -1,0 +1,244 @@
+body{
+    
+    background:url("ku.jpeg");
+    background-attachment:fixed;
+    bacground-position:absolute;
+    background-width:100%;
+    background-position:center;
+    align-items: center;
+    font-size:5vw;
+   
+}
+
+}
+
+/* Standard syntax */
+
+    }
+.kilo{
+    bacground-image:url("tr.jpg");
+}
+h1{
+    color:white
+}
+form{
+    color:white;
+    background-color:rgba(255,255,255,0.8);
+    
+    position:center;
+    border:10px double #000000a5 ;
+    -webkit-backdrop-filter:blur(5px);
+    backdrop-filter:blur(5px);
+    animation-name:king;
+    animation-duration:3s;
+    animation-iteration-count:infinite;
+    
+}
+@keyframes king{
+    0%{color:white;}
+    50%{color:red;}
+    100%{color:white;}
+}
+
+
+  
+
+#lef{
+    position:left;
+    background: rgba(255,255,255,0.8);
+}
+#sus{
+    position:left;
+    color:#484848fd;
+    float: left;
+    text-shadow:2px 2px 2px solid#484848de;
+}
+* {margin:0;
+padding:0;
+box-sizing: border-box;
+    
+}
+section {
+
+    
+    
+}
+.oye{
+    margin: auto;
+    border:5px solid#d3d3d380;
+    position:center;
+    border-radius:20px;
+}
+#note{
+    background-color:#ffffff8d;
+    border:2px solid double gray;
+    height: 300px;
+    animation:heading;
+    animaion-duration:3s;
+    animation-fill-mode: forward;
+}
+@keyframes heading{
+    0%{top:-200px;}
+    100%{top:300px}
+    
+}
+#http{
+    background: rgba(255,255,255,0.8);
+    border-top: 4px solid #1a1a1add;
+    border-radius:20px;
+}
+#jig{
+    border:3px solid #16161672;
+    justify-content:center;
+   background: #181818dd;
+   padding:50px;
+}
+#kk{
+    color:white;
+    border:2px solid black;
+    
+}  .dropbtn {
+  background-color:#43434386;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.
+.kim{
+    background: #cecece9e;
+}
+.hh{
+    border-top:
+        4px double #2e2e2e96;
+        border-bottom:10px double #2e2e2e96;
+    }
+
+#white{
+    color:white;
+}
+footer{background: #000000d6;
+border-top:3px solid #b2b2b2ae;
+border-radius: 3px;
+text-decoration:none;}   
+footer a{text-decoration:none;
+    
+} 
+    
+#google_translate_element{
+    border:5px solid #8b8b8b8e ;
+}
+.tran{
+    color:#3aafa1ba;
+    background: #2c2c2cba;
+}
+#folow{
+    border-top:50px solid #0d0f19c8;
+    border-bottom: 50px solid #0d0f19c8;
+}
+#foot{
+    color:white;
+    background: #000000da;
+    padding:0;
+    margin:0;
+    
+}
+#mess{
+    background:#545454e3;
+    color:white;
+}
+.white{color:white;
+text-align:center;}
+#blo{
+    background:#000000e9;
+    color:white;
+    text-align:center;
+}
+.gko{background:rgba(255,255,255,0.4);
+justify-content:center;
+-webkit-backdrop-filter:blur(10px);
+  backdrop-filter:blur(10px);
+
+}
+#blue{-webkit-transform: translate(50%,50%);
+transform: translate(50%,50%);
+}
+
+color:white;}
+.slide{
+    border-top:50px;
+    border-bottom: 50px;
+}
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+  .dropdown button{
+      background: red;
+      cursor:pointer;
+     justify-content:right;
+      
+  }
+  .dropdown a{
+      display: block;
+      color:black;
+      text-decoration:none;
+      padding: 20px 15px;
+      background:rgba(255,255,255,0.8);
+       -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+      color:black;
+      transformation: translate(0);
+      
+      
+      
+  }
+  .dropdown .cont{
+      height: 100%;
+      width:250px;
+      display: none;
+      
+      position:absolute;
+      background-color:green ;
+      border-bottom:3px solid rgba(255,255,255,0.8);
+      overf
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+      color:black;
+      
+      
+      
+  }
+.dropdown:hover .cont{ display:block;
+transition:0.3s;}
+.colorchanger{
+    color: red;
+    animation-name:change;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+}
+@keyframes change{
+    0%{color: white;}
+    50%{color: red;}
+    100%{color: white;
+}
+.containx{
+    position:relative;
+    width: 100%;
+}
+.text-containx{position:absolute;
+top:25%;
+
+
+}
+.text-containx h1{position:absolute;}
+.image-container { position: relative; display: inline-block; } .image-container img { display: block; width: 100%; height: auto; } .overlay-text { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: #000000; color: #fff; padding: 10px 20px; font-size: 20px; text-align: center;}
+
+.menucontainer{
+    right:0;
+    top:0;
+    
+}
