@@ -57,10 +57,11 @@
     color:white;
     text-decoration:none;
     font-weight:bold;
+    transition:0.3s;
 }
 .menucontent a:hover {
     background: black;
-    transition:0.3s;
+    letter-spacing:4px;
 }
 .menucontainer:hover .menucontent{
     display:block;
