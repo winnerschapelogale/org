@@ -36,8 +36,8 @@
     animation-iteration-count:infinite;
 }
 .boximage img{
-    width: 70%;
-    height:240px;
+    width: 50%;
+    height:auto;
     border-top: 3px solid red;
     border-bottom: 3px solid white;
     border-right:0px solid #7d7d7d;
@@ -71,8 +71,8 @@
     100%{border:2px solid red;}
 }
 .residentbox img{
-    width: 70%;
-    height:240px;
+    width: 50%;
+    height:auto;
     border-top: 3px solid red;
     border-bottom: 3px solid white;
     border-right:0px solid #7d7d7d;
