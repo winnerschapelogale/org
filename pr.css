@@ -6,15 +6,12 @@ body{
     background-width:100%;
     background-position:center;
     align-items: center;
-    font-size:4vw;
+    font-size:5vw;
    
 }
 
-}
 
-/* Standard syntax */
-
-    }
+@media only screen and (min-width: 768px) {body{font-size:4px;}}
 .kilo{
     bacground-image:url("tr.jpg");
 }
