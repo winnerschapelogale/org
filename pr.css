@@ -6,10 +6,11 @@ body{
     background-width:100%;
     background-position:center;
     align-items: center;
-    font-size:4vw;
+    font-size:5vw;
    
 }
 
+@media only screen and (min-width: 768px) {body{font-size:4vw;
 }
 
 /* Standard syntax */
