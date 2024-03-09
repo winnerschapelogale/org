@@ -16,8 +16,9 @@ left:50%;
 
     transform: translate(-50%,-50%);
 }
+@media only screen and (min-width: 768px) {#contain{top:50%;left;25%;}}
 form{
-  height: 500px;
+  height: auto;
   background: rgba(255,255,255,0.2);
   padding:3em;
   border:2px solid rgba(255,225,225,0.1);
@@ -35,6 +36,7 @@ form{
   height: auto;
   trasition-iteration-count:infinite;
 }
+@media only screen and (min-width: 768px) {form{height:auto;}}
 form:hover{
     transition:rotate3d(1,1,1,0deg);
 }
