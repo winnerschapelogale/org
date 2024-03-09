@@ -53,6 +53,7 @@
     
     
 }
+@media only screen and (min-width: 768px) {.boximage h1{font-size:30px;margin-left:25%;}}
 @keyframes oyedepo{
     0%{border-top: 3px solid red;}
     50%{border-top: 3px solid white;}
