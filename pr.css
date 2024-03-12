@@ -1,8 +1,9 @@
 body{
     
-    background:url("ku.jpeg");
+    background:url("livi.jpg");
     background-attachment:fixed;
     bacground-position:absolute;
+    background-size:100vh;
     background-width:100%;
     background-position:center;
     align-items: center;
