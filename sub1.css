@@ -1,7 +1,7 @@
 .boxfounder{
     background: rgba(255,255,255,0.2);
-    -webkit-backdrop-filter:blur(3px);
-    backdrop-filter:blur(3px);
+    -webkit-backdrop-filter:blur(13px);
+    backdrop-filter:blur(13px);
     margin:5px auto;
     height: auto;
     width: 100%;
