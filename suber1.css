@@ -1,0 +1,136 @@
+.oyecontainer{
+    margin: 0px auto;
+    
+    width: 100%;
+    max-width:960px;
+    background: transparent;
+    -webkit-backdrop-filter:blur(10px);
+    backdrop-filter:blur(10px);
+    
+}
+.oyecolumns{
+display:flex;
+flex-direction:column;
+    }
+@media(min-width:768px){
+.oyecolumns{
+    flex-direction:row;
+    justify-content:space-between;
+    flex-start:end;
+    
+}
+    
+}
+  .col1{
+      width: 100%;
+  }
+  .col2{width:100% ;}
+
+
+.col1 img{
+    width:70%;
+    height: auto;
+    border:2px solid red;
+    border-radius:25%;
+    box-shadow:3px 3px 3px black;
+    float:center;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    height: auto;
+    background: rgba(255,255,255,0.4);
+    -webkit-backdrop-filter:blur(10px);
+    backdrop-filter:blur(10px);
+    
+}
+@media(min-width:768px){
+.col2 img{width: 50%;
+}
+.col1 img{width: 50%;
+}
+
+    
+}
+.col1 p{
+    background: black;
+    font-size:bold;
+    color: white;
+    font-size:18px;
+    margin: 5px auto;
+    border:2px solid red;padding: 10px;
+    border-top-left-radius:25%;
+    border-bottom-right-radius:25%;
+    box-shadow:3px 3px 3px black;
+    text-align:center;
+}
+
+.col2 p{
+    background: black;
+    color: white;
+   font-size:18px; 
+    margin: 5px auto;
+    border:2px solid red;padding: 10px;
+    border-top-left-radius:25%;
+    border-bottom-right-radius:25%;
+    box-shadow:3px 3px 3px black;
+    text-align:center;
+}@media(min-width:768px){.col2 p{font-size:12px; }
+.col1 p{font-size:12px;}
+    
+}
+.col1 h1{
+    background: black;
+    color: white;border: 2px solid white;
+    text-align:center;
+    
+}
+.col2 h1{
+    background: black;
+    color: white;border:2px solid white;
+    text-align:center;
+    
+}
+
+.col2 img{
+    width:80%;
+     border:2px solid red;
+    border-radius:25%;
+    box-shadow:3px 3px 3px black;
+    float:center;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    height: auto;
+    background: rgba(255,255,255,0.4);
+    -webkit-backdrop-filter:blur(10px);
+    backdrop-filter:blur(10px);
+    
+}
+.col1{background: rgba(255,255,255,0.4);
+    -webkit-backdrop-filter:blur(10px);
+    backdrop-filter:blur(10px);
+    
+    
+}
+.col2{background: rgba(255,255,255,0.4);
+    -webkit-backdrop-filter:blur(10px);
+    backdrop-filter:blur(10px);
+   
+    
+}
+.blue{
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin:-150px 0 0 -100px;
+    width: 200px;
+    height: 200px;
+    color:white;
+    line-height: 300px;
+    text-align:center;}
+    .changer{
+        background: black;
+        text-align:center;
+        color:white;
+    }
+.activitiescont h1{background:black;}

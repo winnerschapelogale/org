@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+.headcontain{
+   position:sticky;
+    position: -webkit-sticky;
+ font-size:20px;
+    width:100%;
+    heigth:auto;
+   
+    
+  top: 0;
+  padding: 5px;
+  background-color: transparent;
+  border-bottom: rgba(255,255,255,0.8);
+  -webkit-backdrop-filter:blur(15px);
+  backdrop-filter:blur(15px);
+  text-align:left;
+  box-shadow:3px 3px 3px grey;
+  z-index:1;}
+  @media(min-width:768px){.headcontain{font-size:12px;}
+      
+  }
