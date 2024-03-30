@@ -1,0 +1,39 @@
+.back {
+    background: transparent;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    width: 100%;
+    height: auto;
+}
+
+.formation{
+    
+    
+   
+
+width: 90%;;
+   height: 500px ;
+   Margin:5% auto;
+  
+}
+.formation form{
+    height: 500px;
+    
+  background: rgba(255,255,255,0.2);
+  
+  border:2px solid rgba(255,225,225,0.1);
+  border-radius:20px;
+  text-align:center;
+  
+}
+.formation form input{
+    background:transparent;
+    margin-bottom:10px;
+    padding:1em;
+    border-right:1px solid#00095a94;
+    border-bottom:1px solid#00095a94;
+    color:white;
+    
+}
+textarea{width: 80%;
+height: 100px;}
