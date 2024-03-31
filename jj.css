@@ -29,6 +29,7 @@ width: 90%;;
 }
 
 @media only screen and (min-width: 768px) {height:100vh;}
+@media only screen and (orientation: landscape){height:100vh;}
 .formation form input{
     background:transparent;
     margin-bottom:10px;
