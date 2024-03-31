@@ -24,8 +24,11 @@ width: 90%;;
   border:2px solid rgba(255,225,225,0.1);
   border-radius:20px;
   text-align:center;
-  
+
+    
 }
+
+@media only screen and (min-width: 768px) {height:100vh;}
 .formation form input{
     background:transparent;
     margin-bottom:10px;
