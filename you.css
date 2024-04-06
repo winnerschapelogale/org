@@ -8,7 +8,7 @@ text-align:left;}
 height: 100px;
     font-size:30px;
     animation:header;
-    animation-duration:4s;
+    animation-duration:2s;
     animation-fill-mode:forwards;
     	animation-timing-function: view(0px);
     position:relative;
@@ -35,7 +35,7 @@ font-weight:bold;}
 .overlay-text p{
     position:relative;
     animation:enter;
-    animation-duration:6s;
+    animation-duration:3s;
     animation-fill-mode:forwards;
 }
 @keyframes enter{
