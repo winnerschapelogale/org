@@ -1,3 +1,9 @@
+<?php $isOperaMini = false; if (isset($_SERVER['HTTP_X_OPERAMINI_PHONE_UA']) || isset($_SERVER['HTTP_X_OPERAMINI_FEATURES'])) { $isOperaMini = true; } ?>
+
+
+
+
+
 <!Doctype>
 <html>
     <head>
@@ -20,7 +26,7 @@
         
        
         
-         
+         <style> /* Default background */ <?php if ($isOperaMini): ?> /* Specific background for Opera Mini */ body { background-color: black; /* example color */ } <?php endif; ?> </style>
         
         
       <div class="headcontain"><div class="imagecont"><img src="win.png"width="50px" alt=""><p>Living Faith<br>Church Ogale</p>
