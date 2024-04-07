@@ -114,14 +114,14 @@ flex-direction:column;
     
 }
 .col1{background:transparent;
-    -webkit-backdrop-filter:blur(15px);
-    backdrop-filter:blur(10px);
+    -webkit-backdrop-filter:blur(5px);
+    backdrop-filter:blur(5px);
     
     
 }
 .col2{background: transparent;
-    -webkit-backdrop-filter:blur(15px);
-    backdrop-filter:blur(10px);
+    -webkit-backdrop-filter:blur(5px);
+    backdrop-filter:blur(5px);
    
     
 }
