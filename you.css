@@ -1,0 +1,156 @@
+.image-container {position:relative;}
+.image-container img{width: 100%;
+height: auto;}
+.overlay-text{position:absolute;
+top:0;
+text-align:left;}
+.overlay-text h1{
+height: 100px;
+font-weight: bold;
+    font-size:30px;
+    animation:header;
+    animation-duration:2s;
+    animation-fill-mode:forwards;
+    	animation-timing-function: view(0px);
+    position:relative;
+}
+@media(min-width:768px){
+    .overlay-text h1{
+    
+    
+    margin-left:20%
+     ;color: papayawhip;
+}}
+    
+    
+
+
+
+.overlay-text p{color:white;
+font-weight:bold;}
+@media(min-width:768px){
+  .overlay-text p {font-size:50px;
+  margin-left:20%;
+    color: papayawhip;
+}}
+.showcase{height:100px;}
+
+@keyframes header{
+    0%{top:-50px;}
+    100%{top:50px;}
+}
+.overlay-text p{
+    position:relative;
+    animation:enter;
+    animation-duration:3s;
+    animation-fill-mode:forwards;
+}
+@keyframes enter{
+    0%{left:-1000px;
+        
+    }
+    100%{left:0;}
+}
+}
+
+
+@keyframes change{
+    0%{color: white;}
+    50%{color: red;}
+    100%{color:white;}
+}
+
+.imagecont img{
+float:left;
+width: 50px;
+height: 50px;
+
+
+    
+}
+.imagecont p{
+    color: white;
+    text-align:left;
+    color:white;
+    animation-name:change;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+}
+.imagecont1 p{
+    color: white;
+    text-align:left;
+    color:white;
+    animation-name:change;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+}
+
+.imagecont p div{
+    color: white;
+    text-align:left;
+    color:white;
+    animation-name:change;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+}
+.move{
+    transform:translateX(400%);
+    transform: transform 0.4s ease;
+}
+.move:nth-of-type(even){
+    transform:translate(-400%);
+}#7d7d7d
+.move .show{
+    transform: translateX(0);
+}
+.blue{}
+.animated-text { opacity: 0; /* Initially hidden */ transition: opacity 1s ease; } .animate { transform: translateX(-100%); 
+opacity: 0;/* Initial position */ transition: transform 1s ease; opacity: 0; /* Initially hidden */ } /* Add animation when element comes into view */ .show-animate { opacity: 1 !important; transform: translateX(0) !important; }
+.animated-text2 { opacity: 0; /* Initially hidden */ transition: opacity 1s ease; } .animate2 { transform: translateX(100px); 
+opacity: 0;/* Initial position */ transition: transform 1s ease; opacity: 0; /* Initially hidden */ } /* Add animation when element comes into view */ .show-animate { opacity: 1 !important; transform: translateX(0) !important; }
+
+.fade-in { opacity: 0; transition: opacity 1s ease; } .slide-in { transform: translateY(100px); opacity: 0; transition: transform 1s ease, opacity 1s ease; } .bounce-in { transform: translateY(-100px); opacity: 0; transition: transform 1s ease, opacity 1s ease; } .content.active { opacity: 1; transform: translateY(0); }
+.oyecontainersub{
+    background: black;
+    border: 3px solid red;
+    color:white;
+    font-weight: bold;
+   
+    
+}
+.menucontent1{
+    display:flex;
+    color:white;
+    transition:2s;
+    background: black;
+   justify-content:space-between;
+}
+.menucontent1 a{
+    color:white;
+    text-decoration:none;
+    padding-top:15px ;
+    padding-left: 15px ;
+    font-weight: bold;
+    margin-top: 25px;
+    
+}
+.menucontent1 a:hover{
+    border-bottom:3px solid red;
+    letter-spacing:3px;
+}
+@media(max-width:600px){
+   .menucontent1{display:none;
+   
+   }
+}
+@media(min-width:768px){
+    .imagecont{display:none;}
+}
+.oyecolumns{
+    display:flex;
+    flex-direction:column;
+    
+}
+@media(min-width:768px){
+ .oyecolumns{  flex-direction:row; }
+}
