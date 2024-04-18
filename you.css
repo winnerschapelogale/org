@@ -6,6 +6,7 @@ top:0;
 text-align:left;}
 .overlay-text h1{
 height: 100px;
+margin-left:10px;
 font-weight: bold;
     font-size:30px;
     animation:header;
@@ -27,6 +28,7 @@ font-weight: bold;
 
 
 .overlay-text p{color:white;
+margin-left:10px;
 font-weight:bold;}
 @media(min-width:768px){
   .overlay-text p {font-size:50px;
@@ -153,4 +155,9 @@ opacity: 0;/* Initial position */ transition: transform 1s ease; opacity: 0; /* 
 }
 @media(min-width:768px){
  .oyecolumns{  flex-direction:row; }
+}
+.footo{
+    width: 80%;
+    border-bottom:3px solid red;
+    margin: 10px auto;
 }
