@@ -72,15 +72,5 @@ menuItems.forEach((item) => {
   });
 });
 
-menuItems.forEach((item) => {
-    item.addEventListener('click', (e) => {
-        e.preventDefault();
-        sideBar.classList.remove('show-slider');
-        const targetId = item.getAttribute('href').slice(1);
-        const targetElement = document.getElementById(targetId);
-        const offsetTop = targetElement.offsetTop;
-        window.scrollBy({ top: offsetTop - 1px, behavior: 'smooth' });
-    });
-});
 
 
