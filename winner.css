@@ -72,7 +72,7 @@ font-size: medium;
     justify-content: space-between;
 }
 .sidebar{
-    background: rgba(0, 0, 0, 0.514);
+    background: black;
     -webkit-backdrop-filter: blur(30px);
     backdrop-filter: blur(30px);
     top:0;
