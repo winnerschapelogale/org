@@ -1,0 +1,70 @@
+.ai{
+   background: rgba(0, 0, 0, 0.514);
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+    top:0;
+    left:0;
+    z-index:  100;
+    position:fixed;
+    overflow-y:auto;
+    width: 100%;
+    height:100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    transform: translate(-100%);
+    transition: 0.5s;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.ai-active{
+   transform: translate(0);
+   height: 100vh;
+}
+.activator{
+   background: red;
+   color:white;
+   height: 40px;
+   border:none;
+   border-radius: 7px;
+}
+.ai-general{
+   bottom: 9%;
+   right: 3%;
+   position:absolute;
+   position:fixed;
+   background: #070707be;
+   border:none;border-radius: 7px;
+   
+}
+.ai h1{
+   text-align:center;
+}
+.closed{
+   background: #333333ae;
+   color:white;
+   position:absolute;
+   border:none;
+   height: 40px;
+   width: 50px;
+   right: 3%;
+}
+.ai img{
+   animation: move 2s infinite;
+}
+@keyframes move{
+   25%{
+      margin-top: 10px;
+   }
+   50%{
+      margin-left: 10px;
+    
+   }
+   75%{
+      margin-bottom: 10px;
+   }
+   100%{
+      margin-right:10px;
+   }
+}
